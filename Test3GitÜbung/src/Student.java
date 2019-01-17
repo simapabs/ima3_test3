@@ -21,10 +21,13 @@ public Student(String name, Integer gebJahr, String studiengang) {
 	this.studiengang = studiengang;
 }
 
-public void ausgeben() {
-	System.out.println(name +" / " + studiengang + gebJahr);
+public int ausgeben() {
+	return(2019-gebJahr);
 }
 
+public void alterStudent() {
+	System.out.println("Der Student ist: " + gebJahr + "alt");
+}
 public static void main(String[]args) {
 	
 }
