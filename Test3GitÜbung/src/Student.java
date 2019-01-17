@@ -5,6 +5,8 @@ private String name;
 private Integer gebJahr;
 private String studiengang;
 
+
+
 /**
  * 
  * @param name
@@ -20,7 +22,7 @@ public Student(String name, Integer gebJahr, String studiengang) {
 }
 
 public void ausgeben() {
-	System.out.println(name +" / " + studiengang);
+	System.out.println(name +" / " + studiengang + gebJahr);
 }
 
 public static void main(String[]args) {
