@@ -5,9 +5,12 @@ private String name;
 private Integer gebJahr;
 private String studiengang;
 
-public static void main(String[]args) {
-	
-}
+/**
+ * 
+ * @param name
+ * @param gebJahr
+ * @param studiengang
+ */
 
 public Student(String name, Integer gebJahr, String studiengang) {
 	super();
@@ -16,5 +19,12 @@ public Student(String name, Integer gebJahr, String studiengang) {
 	this.studiengang = studiengang;
 }
 
+public void ausgeben() {
+	System.out.println(name +" / " + studiengang);
+}
+
+public static void main(String[]args) {
+	
+}
 
 }
